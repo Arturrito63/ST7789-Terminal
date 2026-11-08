@@ -1,0 +1,603 @@
+
+Map of Debug\st7789-terminal.sm8 from link file Debug\st7789-terminal.lkf - Tue Nov  3 18:04:50 2026
+
+
+                               --------
+                               Segments
+                               --------
+
+start 00008080 end 00008e36 length  3510 segment .const
+start 00008e56 end 00009f47 length  4337 segment .text
+start 00004000 end 000040b5 length   181 segment .eeprom
+start 00000000 end 00000018 length    24 segment .bsct, initialized
+start 00008e3e end 00008e56 length    24 segment .bsct, from
+start 00000018 end 00000056 length    62 segment .ubsct
+start 00000056 end 00000056 length     0 segment .bit
+start 00000056 end 00000056 length     0 segment .share
+start 00000100 end 00000100 length     0 segment .data
+start 00000100 end 00000100 length     0 segment .bss
+start 00000000 end 00000533 length  1331 segment .info.
+start 00000000 end 0000299c length 10652 segment .debug
+start 00008000 end 00008080 length   128 segment .const
+start 00008e36 end 00008e3e length     8 segment .init
+
+
+                               -------
+                               Modules
+                               -------
+
+C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8:
+start 00008e56 end 00008ea6 length    80 section .text
+start 00000100 end 00000100 length     0 section .bss
+start 00000018 end 00000018 length     0 section .ubsct
+start 00000000 end 00000033 length    51 section .info.
+
+Debug\fonts.o:
+start 00000000 end 00000004 length     4 section .bsct
+start 00000000 end 00000123 length   291 section .debug
+start 00000033 end 000000a1 length   110 section .info.
+start 00008080 end 00008ddc length  3420 section .const
+
+Debug\main.o:
+start 00000004 end 00000018 length    20 section .bsct
+start 00000018 end 0000004c length    52 section .ubsct
+start 00000123 end 00000e83 length  3424 section .debug
+start 000000a1 end 0000010e length   109 section .info.
+start 00004000 end 000040b5 length   181 section .eeprom
+start 00008ea6 end 000091c4 length   798 section .text
+start 000091c4 end 000091d8 length    20 section .text
+start 000091d8 end 00009201 length    41 section .text
+start 00009201 end 00009206 length     5 section .text
+start 00009206 end 0000921e length    24 section .text
+start 0000921e end 00009277 length    89 section .text
+start 00009277 end 0000930c length   149 section .text
+start 00008ddc end 00008e32 length    86 section .const
+start 0000930c end 0000933a length    46 section .text
+start 0000933a end 0000935f length    37 section .text
+start 0000935f end 00009372 length    19 section .text
+start 00009372 end 0000937b length     9 section .text
+start 0000937b end 00009575 length   506 section .text
+start 00009575 end 000095a4 length    47 section .text
+start 000095a4 end 000096fd length   345 section .text
+start 000096fd end 00009740 length    67 section .text
+start 00009740 end 0000979c length    92 section .text
+start 0000979c end 000097c1 length    37 section .text
+start 000097c1 end 00009944 length   387 section .text
+start 00009944 end 000099b2 length   110 section .text
+start 000099b2 end 000099c5 length    19 section .text
+start 000099c5 end 000099e6 length    33 section .text
+start 000099e6 end 000099fb length    21 section .text
+
+Debug\st7789.o:
+start 00000e83 end 000018f5 length  2674 section .debug
+start 0000010e end 0000017d length   111 section .info.
+start 000099fb end 00009a23 length    40 section .text
+start 00009a23 end 00009a2f length    12 section .text
+start 00009a2f end 00009a4d length    30 section .text
+start 00009a4d end 00009a5e length    17 section .text
+start 00009a5e end 00009a6f length    17 section .text
+start 00009a6f end 00009a80 length    17 section .text
+start 00009a80 end 00009aa9 length    41 section .text
+start 00009aa9 end 00009afb length    82 section .text
+start 00009afb end 00009b29 length    46 section .text
+start ******** end ******** length     0 section .text *** removed ***
+start 00009b29 end 00009b5d length    52 section .text
+start 00009b5d end 00009b6a length    13 section .text
+start 00009b6a end 00009b89 length    31 section .text
+start 00009b89 end 00009b99 length    16 section .text
+start ******** end ******** length     0 section .text *** removed ***
+start 00008e32 end 00008e36 length     4 section .const
+start 00009b99 end 00009c87 length   238 section .text
+start 00009c87 end 00009d01 length   122 section .text
+start 00009d01 end 00009d4b length    74 section .text
+
+Debug\stm8s_spi.o:
+start 000018f5 end 00002831 length  3900 section .debug
+start 0000017d end 000001ef length   114 section .info.
+start ******** end ******** length     0 section .text *** removed ***
+start 00009d4b end 00009d82 length    55 section .text
+start 00009d82 end 00009d90 length    14 section .text
+start ******** end ******** length     0 section .text *** removed ***
+start 00009d90 end 00009d94 length     4 section .text
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start 00009d94 end 00009da7 length    19 section .text
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)bmulx.o:
+start 00009da7 end 00009db5 length    14 section .text
+start 000001ef end 0000021e length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lcmp.o:
+start 00009db5 end 00009dd5 length    32 section .text
+start 0000021e end 0000024c length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgadc.o:
+start 00009dd5 end 00009de5 length    16 section .text
+start 0000024c end 0000027b length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)llsh.o:
+start 00009de5 end 00009df4 length    15 section .text
+start 0000027b end 000002a9 length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lreg.o:
+start 0000004c end 00000050 length     4 section .ubsct
+start 000002a9 end 000002d7 length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ltor.o:
+start 00009df4 end 00009e06 length    18 section .text
+start 000002d7 end 00000305 length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ludiv.o:
+start 00009e06 end 00009e1a length    20 section .text
+start 00000305 end 00000334 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ldiv.o:
+start 00009e1a end 00009f05 length   235 section .text
+start 00000334 end 00000362 length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgneg.o:
+start 00009f05 end 00009f18 length    19 section .text
+start 00000362 end 00000391 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lneg.o:
+start 00009f18 end 00009f2d length    21 section .text
+start 00000391 end 000003bf length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)rtol.o:
+start 00009f2d end 00009f3f length    18 section .text
+start 000003bf end 000003ed length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)utolx.o:
+start 00009f3f end 00009f46 length     7 section .text
+start 000003ed end 0000041c length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)xreg.o:
+start 00000050 end 00000053 length     3 section .ubsct
+start 0000041c end 0000044a length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)yreg.o:
+start 00000053 end 00000056 length     3 section .ubsct
+start 0000044a end 00000478 length    46 section .info.
+
+Debug\stm8_interrupt_vector.o:
+start 00002831 end 0000299c length   363 section .debug
+start 00000478 end 000004f6 length   126 section .info.
+start 00009f46 end 00009f47 length     1 section .text
+start 00008000 end 00008080 length   128 section .const
+
+
+                             -----------
+                             Stack usage
+                             -----------
+
+Debug\main.o:
+_BEEP_Init_Calibrated        23   (3)
+_BorraFlags                   2   (2)
+_CLK_Config                   2   (2)
+_EXTI_Config                  2   (2)
+_FillTexto                    3   (3)
+_GPIO_Config                  2   (2)
+_LSI_Calibration             20   (6)
+_PrintBlack                  66   (2)
+_PrintMenu                   67   (3)
+_PrintSubMenu                69   (5)
+_Print_Inicio                66   (2)
+_Print_RX                    67   (3)
+_PulsoBeep                    4   (4)
+_SPI_Config                  13   (2)
+_SelItemMenu                 72   (3)
+_SelItemSubMenu              71   (4)
+_SelLista                    21   (8)
+_UART_config                  2   (2)
+_main                    >   82   (10)
+f_EXTI_PORTC_IRQHandler  >    6   (6)
+f_EXTI_PORTD_IRQHandler  >    6   (6)
+f_UART1_RX_IRQHandler    >    6   (6)
+
+Debug\st7789.o:
+_ST7789_Clear                25   (8)
+_ST7789_Init                  9   (2)
+_ST7789_SendByte              5   (2)
+_ST7789_SendWord              7   (4)
+_ST7789_SetWindow            17   (10)
+_ST7789_WriteChar            46   (29)
+_ST7789_WriteCommand          7   (2)
+_ST7789_WriteData             7   (2)
+_ST7789_WriteDataArray       11   (6)
+_ST7789_WriteString          64   (18)
+_ST7789_WriteWord             9   (2)
+_ST7789_setPartArea          13   (6)
+_ST7789_setScroll            13   (4)
+_ST7789_setScrollArea        17   (10)
+_ST7789_swPartArea            9   (2)
+_delay_ms                     6   (6)
+
+Debug\stm8_interrupt_vector.o:
+f_NonHandledInterrupt    >    6   (6)
+
+Debug\stm8s_spi.o:
+_SPI_Cmd                      2   (2)
+_SPI_GetFlagStatus            3   (3)
+_SPI_Init                    11   (11)
+_SPI_SendData                 2   (2)
+
+Stack size: 88
+
+
+                              ---------
+                              Call tree
+                              ---------
+   1 > __stext: (0)
+
+   2 > _main: (10)
+   3      + _BEEP_Init_Calibrated: (3)
+   4      |    + _LSI_Calibration: (6)
+          | 
+   5      + _BorraFlags: (2)
+   6      + _CLK_Config: (2)
+   7      + _EXTI_Config: (2)
+   8      + _FillTexto: (3)
+   9      + _GPIO_Config: (2)
+  10      + _PrintBlack: (2)
+  11      |    + _ST7789_Clear: (8)
+  12      |    |    + _SPI_GetFlagStatus: (3)
+  13      |    |    + _ST7789_SendWord: (4)
+  14      |    |    |    + _SPI_GetFlagStatus --> 12
+  15      |    |    |    + _SPI_SendData: (2)
+          |    |    | 
+  16      |    |    + _ST7789_SetWindow: (10)
+  17      |    |    |    + _ST7789_SendWord --> 13
+  18      |    |    |    + _ST7789_WriteCommand: (2)
+  19      |    |    |    |    + _SPI_GetFlagStatus --> 12
+  20      |    |    |    |    + _ST7789_SendByte: (2)
+  21      |    |    |    |    |    + _SPI_GetFlagStatus --> 12
+  22      |    |    |    |    |    + _SPI_SendData --> 15
+          |    |    |    |    | 
+          |    |    |    | 
+          |    |    | 
+          |    | 
+  23      |    + _ST7789_WriteString: (18)
+  24      |    |    + _ST7789_WriteChar: (29)
+  25      |    |    |    + _SPI_GetFlagStatus --> 12
+  26      |    |    |    + _ST7789_SetWindow --> 16
+  27      |    |    |    + _ST7789_WriteDataArray: (6)
+  28      |    |    |    |    + _SPI_GetFlagStatus --> 12
+  29      |    |    |    |    + _ST7789_SendByte --> 20
+          |    |    |    | 
+          |    |    | 
+          |    | 
+          | 
+  30      + _PrintMenu: (3)
+  31      |    + _ST7789_Clear --> 11
+  32      |    + _ST7789_WriteString --> 23
+  33      |    + _ST7789_swPartArea: (2)
+  34      |    |    + _ST7789_WriteCommand --> 18
+          |    | 
+  35      |    + _SelLista: (8)
+  36      |    |    + _ST7789_setPartArea: (6)
+  37      |    |    |    + _SPI_GetFlagStatus --> 12
+  38      |    |    |    + _ST7789_SendWord --> 13
+  39      |    |    |    + _ST7789_WriteCommand --> 18
+          |    |    | 
+          |    | 
+          | 
+  40      + _Print_Inicio: (2)
+  41      |    + _ST7789_Clear --> 11
+  42      |    + _ST7789_WriteString --> 23
+          | 
+  43      + _Print_RX: (3)
+  44      |    + _PulsoBeep: (4)
+  45      |    + _ST7789_WriteString --> 23
+          | 
+  46      + _PulsoBeep --> 44
+  47      + _SPI_Config: (2)
+  48      |    + _SPI_Cmd: (2)
+  49      |    + _SPI_Init: (11)
+          | 
+  50      + _ST7789_Init: (2)
+  51      |    + _ST7789_WriteCommand --> 18
+  52      |    + _ST7789_WriteData: (2)
+  53      |    |    + _SPI_GetFlagStatus --> 12
+  54      |    |    + _ST7789_SendByte --> 20
+          |    | 
+  55      |    + _delay_ms: (6)
+          | 
+  56      + _ST7789_setScroll: (4)
+  57      |    + _ST7789_WriteCommand --> 18
+  58      |    + _ST7789_WriteWord: (2)
+  59      |    |    + _SPI_GetFlagStatus --> 12
+  60      |    |    + _ST7789_SendWord --> 13
+          |    | 
+          | 
+  61      + _ST7789_setScrollArea: (10)
+  62      |    + _SPI_GetFlagStatus --> 12
+  63      |    + _ST7789_SendWord --> 13
+  64      |    + _ST7789_WriteCommand --> 18
+          | 
+  65      + _SelItemMenu: (3)
+  66      |    + _PrintSubMenu: (5)
+  67      |    |    + _ST7789_Clear --> 11
+  68      |    |    + _ST7789_WriteString --> 23
+  69      |    |    + _ST7789_swPartArea --> 33
+  70      |    |    + _SelLista --> 35
+          |    | 
+  71      |    + _Print_Inicio --> 40
+  72      |    + _ST7789_swPartArea --> 33
+          | 
+  73      + _SelItemSubMenu: (4)
+  74      |    + _PrintMenu --> 30
+  75      |    + _ST7789_swPartArea --> 33
+  76      |    + _UART_config: (2)
+          | 
+  77      + _SelLista --> 35
+  78      + _UART_config --> 76
+       
+  79 > f_EXTI_PORTC_IRQHandler: (6)
+
+  80 > f_EXTI_PORTD_IRQHandler: (6)
+
+  81 > f_NonHandledInterrupt: (6)
+
+  82 > f_UART1_RX_IRQHandler: (6)
+
+  83   _BEEP_Init_Calibrated --> 3
+
+  84   _BorraFlags --> 5
+
+  85   _CLK_Config --> 6
+
+  86   _EXTI_Config --> 7
+
+  87   _FillTexto --> 8
+
+  88   _GPIO_Config --> 9
+
+  89   _LSI_Calibration --> 4
+
+  90   _PrintBlack --> 10
+
+  91   _PrintMenu --> 30
+
+  92   _PrintSubMenu --> 66
+
+  93   _Print_Inicio --> 40
+
+  94   _Print_RX --> 43
+
+  95   _PulsoBeep --> 44
+
+  96   _SPI_Cmd --> 48
+
+  97   _SPI_Config --> 47
+
+  98   _SPI_GetFlagStatus --> 12
+
+  99   _SPI_Init --> 49
+
+ 100   _SPI_SendData --> 15
+
+ 101   _ST7789_Clear --> 11
+
+ 102   _ST7789_Init --> 50
+
+ 103   _ST7789_SendByte --> 20
+
+ 104   _ST7789_SendWord --> 13
+
+ 105   _ST7789_SetWindow --> 16
+
+ 106   _ST7789_WriteChar --> 24
+
+ 107   _ST7789_WriteCommand --> 18
+
+ 108   _ST7789_WriteData --> 52
+
+ 109   _ST7789_WriteDataArray --> 27
+
+ 110   _ST7789_WriteString --> 23
+
+ 111   _ST7789_WriteWord --> 58
+
+ 112   _ST7789_setPartArea --> 36
+
+ 113   _ST7789_setScroll --> 56
+
+ 114   _ST7789_setScrollArea --> 61
+
+ 115   _ST7789_swPartArea --> 33
+
+ 116   _SelItemMenu --> 65
+
+ 117   _SelItemSubMenu --> 73
+
+ 118   _SelLista --> 35
+
+ 119   _UART_config --> 76
+
+ 120   _delay_ms --> 55
+
+
+
+                               -------
+                               Symbols
+                               -------
+
+_BEEP_Init_Calibrated          0000930c   defined in Debug\main.o section .text
+_BorraFlags                    00009372   defined in Debug\main.o section .text
+_CLK_Config                    000091c4   defined in Debug\main.o section .text
+_EXTI_Config                   00009201   defined in Debug\main.o section .text
+_FillTexto                     0000935f   defined in Debug\main.o section .text
+_Font_11x18                    00000000   defined in Debug\fonts.o section .bsct, initialized
+                                          used in Debug\main.o
+_GPIO_Config                   000091d8   defined in Debug\main.o section .text
+_LSI_Calibration               00009277   defined in Debug\main.o section .text
+_LSI_Frequency_Hz              00000004   defined in Debug\main.o section .bsct, initialized
+_PrintBlack                    00009575   defined in Debug\main.o section .text
+_PrintMenu                     00009740   defined in Debug\main.o section .text
+_PrintSubMenu                  000097c1   defined in Debug\main.o section .text
+_Print_Inicio                  0000937b   defined in Debug\main.o section .text
+_Print_RX                      000095a4   defined in Debug\main.o section .text
+_PulsoBeep                     0000933a   defined in Debug\main.o section .text
+_SPI_BiDirectionalLineConfig   ********   *** removed from Debug\stm8s_spi.o ***
+_SPI_CalculateCRCCmd           ********   *** removed from Debug\stm8s_spi.o ***
+_SPI_ClearFlag                 ********   *** removed from Debug\stm8s_spi.o ***
+_SPI_ClearITPendingBit         ********   *** removed from Debug\stm8s_spi.o ***
+_SPI_Cmd                       00009d82   defined in Debug\stm8s_spi.o section .text
+                                          used in Debug\main.o
+_SPI_Config                    00009206   defined in Debug\main.o section .text
+_SPI_DeInit                    ********   *** removed from Debug\stm8s_spi.o ***
+_SPI_GetCRC                    ********   *** removed from Debug\stm8s_spi.o ***
+_SPI_GetCRCPolynomial          ********   *** removed from Debug\stm8s_spi.o ***
+_SPI_GetFlagStatus             00009d94   defined in Debug\stm8s_spi.o section .text
+                                          used in Debug\st7789.o
+_SPI_GetITStatus               ********   *** removed from Debug\stm8s_spi.o ***
+_SPI_ITConfig                  ********   *** removed from Debug\stm8s_spi.o ***
+_SPI_Init                      00009d4b   defined in Debug\stm8s_spi.o section .text
+                                          used in Debug\main.o
+_SPI_NSSInternalSoftwareCmd    ********   *** removed from Debug\stm8s_spi.o ***
+_SPI_ReceiveData               ********   *** removed from Debug\stm8s_spi.o ***
+_SPI_ResetCRC                  ********   *** removed from Debug\stm8s_spi.o ***
+_SPI_SendData                  00009d90   defined in Debug\stm8s_spi.o section .text
+                                          used in Debug\st7789.o
+_SPI_TransmitCRC               ********   *** removed from Debug\stm8s_spi.o ***
+_ST7789_Clear                  00009d01   defined in Debug\st7789.o section .text
+                                          used in Debug\main.o
+_ST7789_DrawPixel              ********   *** removed from Debug\st7789.o ***
+_ST7789_Init                   00009aa9   defined in Debug\st7789.o section .text
+                                          used in Debug\main.o
+_ST7789_SendByte               00009a23   defined in Debug\st7789.o section .text
+_ST7789_SendWord               00009a2f   defined in Debug\st7789.o section .text
+_ST7789_SetRotation            ********   *** removed from Debug\st7789.o ***
+_ST7789_SetWindow              00009afb   defined in Debug\st7789.o section .text
+_ST7789_WriteChar              00009b99   defined in Debug\st7789.o section .text
+_ST7789_WriteCommand           00009a4d   defined in Debug\st7789.o section .text
+_ST7789_WriteData              00009a5e   defined in Debug\st7789.o section .text
+_ST7789_WriteDataArray         00009a80   defined in Debug\st7789.o section .text
+_ST7789_WriteString            00009c87   defined in Debug\st7789.o section .text
+                                          used in Debug\main.o
+_ST7789_WriteWord              00009a6f   defined in Debug\st7789.o section .text
+_ST7789_setPartArea            00009b6a   defined in Debug\st7789.o section .text
+                                          used in Debug\main.o
+_ST7789_setScroll              00009b5d   defined in Debug\st7789.o section .text
+                                          used in Debug\main.o
+_ST7789_setScrollArea          00009b29   defined in Debug\st7789.o section .text
+                                          used in Debug\main.o
+_ST7789_swPartArea             00009b89   defined in Debug\st7789.o section .text
+                                          used in Debug\main.o
+_SelItemMenu                   0000979c   defined in Debug\main.o section .text
+_SelItemSubMenu                00009944   defined in Debug\main.o section .text
+_SelLista                      000096fd   defined in Debug\main.o section .text
+_UART_config                   0000921e   defined in Debug\main.o section .text
+__baudios                      00004045   defined in Debug\main.o section .eeprom
+__datab                        0000406f   defined in Debug\main.o section .eeprom
+__endmem                       000001ff   defined in command file
+                                          *** not used ***
+__endzp                        00000056   defined in command file section .ubsct
+                                          used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+__idesc__                      00008e36   defined in linker section .init
+                                          used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+__memory                       00000100   defined in command file section .bss
+                                          used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+__menu                         00004000   defined in Debug\main.o section .eeprom
+__objeto                       0000402d   defined in Debug\main.o section .eeprom
+__paridad                      00004099   defined in Debug\main.o section .eeprom
+__stack                        000003ff   defined in command file
+                                          used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+__startmem                     00000100   defined in command file section .bss
+                                          *** not used ***
+__stext                        00008e56   defined in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8 section .text
+                                          used in Debug\stm8_interrupt_vector.o
+__stopb                        00004084   defined in Debug\main.o section .eeprom
+__vectab                       00008000   defined in Debug\stm8_interrupt_vector.o section .const
+_bbr1                          0000000e   defined in Debug\main.o section .bsct, initialized
+_bbr2                          00000013   defined in Debug\main.o section .bsct, initialized
+_capture1                      00000008   defined in Debug\main.o section .bsct, initialized
+_capture2                      0000000a   defined in Debug\main.o section .bsct, initialized
+_cont                          00000049   defined in Debug\main.o section .ubsct
+_delay_ms                      000099fb   defined in Debug\st7789.o section .text
+_enc_der                       00000036   defined in Debug\main.o section .ubsct
+_enc_izq                       00000038   defined in Debug\main.o section .ubsct
+_exit                          00008ea4   defined in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8 section .text
+_inChar                        00000018   defined in Debug\main.o section .ubsct
+_is_read                       00000033   defined in Debug\main.o section .ubsct
+_item_sel                      00000042   defined in Debug\main.o section .ubsct
+_keyon                         0000003e   defined in Debug\main.o section .ubsct
+_lat_encA                      00000034   defined in Debug\main.o section .ubsct
+_linea                         00000046   defined in Debug\main.o section .ubsct
+_lista                         0000004a   defined in Debug\main.o section .ubsct
+_main                          00008ea6   defined in Debug\main.o section .text
+                                          used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+_menusel                       00000043   defined in Debug\main.o section .ubsct
+_new_boton                     00000041   defined in Debug\main.o section .ubsct
+_new_encA                      0000003d   defined in Debug\main.o section .ubsct
+_new_encB                      0000003c   defined in Debug\main.o section .ubsct
+_old_boton                     00000040   defined in Debug\main.o section .ubsct
+_old_encA                      0000003b   defined in Debug\main.o section .ubsct
+_old_encB                      0000003a   defined in Debug\main.o section .ubsct
+_periodticks                   0000000c   defined in Debug\main.o section .bsct, initialized
+_print                         00000031   defined in Debug\main.o section .ubsct
+_push_boton                    0000003f   defined in Debug\main.o section .ubsct
+_reg_sr                        00000048   defined in Debug\main.o section .ubsct
+_rx_err                        0000002f   defined in Debug\main.o section .ubsct
+_s_conf                        0000004b   defined in Debug\main.o section .ubsct
+_salto                         00000030   defined in Debug\main.o section .ubsct
+_scroll                        00000045   defined in Debug\main.o section .ubsct
+_setscr                        00000032   defined in Debug\main.o section .ubsct
+_status                        00000044   defined in Debug\main.o section .ubsct
+_test                          00000047   defined in Debug\main.o section .ubsct
+_texto                         00000019   defined in Debug\main.o section .ubsct
+c_bmulx                        00009da7   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)bmulx.o section .text
+                                          used in Debug\main.o Debug\st7789.o
+c_divsl                        00009e1a   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ldiv.o section .text
+                                          *** not used ***
+c_divul                        00009e31   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ldiv.o section .text
+                                          used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ludiv.o
+c_lcmp                         00009db5   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lcmp.o section .text
+                                          used in Debug\st7789.o
+c_lgadc                        00009dd5   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgadc.o section .text
+                                          used in Debug\st7789.o
+c_lgneg                        00009f05   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgneg.o section .text
+                                          used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ldiv.o
+c_llsh                         00009de5   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)llsh.o section .text
+                                          used in Debug\st7789.o
+c_lneg                         00009f18   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lneg.o section .text
+                                          used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ldiv.o
+c_lreg                         0000004c   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lreg.o section .ubsct
+                                          used in Debug\main.o Debug\st7789.o
+                                                  (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lcmp.o
+                                                  (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)llsh.o
+                                                  (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ltor.o
+                                                  (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ldiv.o
+                                                  (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lneg.o
+                                                  (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)rtol.o
+                                                  (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)utolx.o
+c_ltor                         00009df4   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ltor.o section .text
+                                          used in Debug\main.o Debug\st7789.o
+c_ludv                         00009e06   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ludiv.o section .text
+                                          used in Debug\main.o
+c_rtol                         00009f2d   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)rtol.o section .text
+                                          used in Debug\main.o Debug\st7789.o
+c_uitolx                       00009f3f   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)utolx.o section .text
+                                          used in Debug\main.o Debug\st7789.o
+c_x                            00000050   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)xreg.o section .ubsct
+                                          used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+                                                  (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)bmulx.o
+                                                  (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ldiv.o
+c_y                            00000053   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)yreg.o section .ubsct
+                                          used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+f_EXTI_PORTC_IRQHandler        000099b2   defined in Debug\main.o section .text
+                                          used in Debug\stm8_interrupt_vector.o
+f_EXTI_PORTD_IRQHandler        000099c5   defined in Debug\main.o section .text
+                                          used in Debug\stm8_interrupt_vector.o
+f_NonHandledInterrupt          00009f46   defined in Debug\stm8_interrupt_vector.o section .text
+f_UART1_RX_IRQHandler          000099e6   defined in Debug\main.o section .text
+                                          used in Debug\stm8_interrupt_vector.o

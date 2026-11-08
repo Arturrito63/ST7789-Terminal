@@ -1,0 +1,20 @@
+;	STMicroelectronics dependencies file
+
+[Version]
+Keyword=ST7Project
+Number=1.3
+
+[Root.Source Files.fonts.c.Config.0]
+ExternDep= fonts.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  inc\fonts.h inc\stm8s.h inc\stm8s_conf.h
+
+[Root.Source Files.main.c.Config.0]
+ExternDep= main.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  inc\stm8s.h inc\stm8s_conf.h inc\stm8s_spi.h inc\st7789.h inc\fonts.h
+
+[Root.Source Files.st7789.c.Config.0]
+ExternDep= st7789.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  inc\st7789.h inc\stm8s.h inc\stm8s_conf.h inc\fonts.h inc\stm8s_spi.h
+
+[Root.Source Files.stm8_interrupt_vector.c.Config.0]
+ExternDep= stm8_interrupt_vector.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"
+
+[Root.Source Files.stm8s_spi.c.Config.0]
+ExternDep= stm8s_spi.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  inc\stm8s_spi.h inc\stm8s.h inc\stm8s_conf.h
