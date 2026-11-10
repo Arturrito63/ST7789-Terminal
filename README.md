@@ -18,5 +18,10 @@ Es necesario usar una llave doble para que desconecte el divisor resistivo en la
 
 ![](https://github.com/Arturrito63/ST7789-Terminal/blob/main/Doc/Switch.jpg)
 
+### Montaje
+
+Los componentes se pueden montar en un PCB prototipo de 7cm x 5cm con perforaciones cada 2.54mm o 0.1" y sus correspondientes pads de cobre.
+
+![](https://github.com/Arturrito63/ST7789-Terminal/blob/main/Doc/Componentes_y_montaje.jpg)
 
 
