@@ -18,10 +18,17 @@ Es necesario usar una llave doble para que desconecte el divisor resistivo en la
 
 ![](https://github.com/Arturrito63/ST7789-Terminal/blob/main/Doc/Switch.jpg)
 
+------------
+
 ### Montaje
 
-Los componentes se pueden montar en un PCB prototipo de 7cm x 5cm con perforaciones cada 2.54mm o 0.1" y sus correspondientes pads de cobre.
+Los componentes se pueden montar en un PCB prototipo de 7cm x 5cm con perforaciones cada 2.54mm o 0.1" y sus correspondientes pads de cobre. También pueden optar por un PCB algo mas pequeño del tipo doble faz y montar el modulo STM8S103 en la parte trasera del mismo. Se los dejo a su criterio y preferencias...
 
 ![](https://github.com/Arturrito63/ST7789-Terminal/blob/main/Doc/Componentes_y_montaje.jpg)
 
+El encóder rotativo nos permite acceder al menú y movernos por el a fin de seleccionar sus elementos o propiedades. La función del menú es dejarnos configurar los parámetros de la interfaz UART (Velocidad o BPS, longitud del dato en bits, bits de parada, y tipo de paridad).  
+Cuando esta en modo recepción de datos (no en pausa) y se supero las 21 lineas de texto, el encóder nos permite hacer un scroll (despalzamiento vertical) al girar el mismo.  
+El switch (pulsador en mi caso), y si optaron por incluir un divisor resistivo, nos permite conmutar entre 3.3 y 5V (amplitud de la señal de entrada). En modo normal solo tendrá R1 en serie (3.3V), una vez pulsado cambia al divisor resistivo (5v).
+
+![](https://github.com/Arturrito63/ST7789-Terminal/blob/main/Doc/Display.jpg)
 
