@@ -36,13 +36,16 @@ El switch (pulsador en mi caso), y si optaron por incluir un divisor resistivo, 
 
 ### Programa
 
-El MCU **STM8S103F3P6** tiene 8Kbytes de Memoria Flash (programa), 1Kbyte de memoria RAM (volatil) y 640Bytes de memoria EEPROM. Debido a estas limitaciones utilizo una única fuente de 11x18 pixeles, esto da un total de 198 pixeles por carácter que se acomodan en 18 pares de bytes. Como hay más de 8 pixeles horizontales (11) se requieren dos bytes por línea, por 18 líneas da un total de 36 bytes por carácter.  
+El MCU **STM8S103F3P6** tiene **8Kbytes** de Memoria Flash (programa), **1Kbyte** de memoria RAM (volatil) y **640Bytes** de memoria EEPROM. Debido a estas limitaciones utilizo una única fuente de 11x18 pixeles, esto da un total de 198 pixeles por carácter que se acomodan en 18 pares de bytes. Como hay más de 8 pixeles horizontales (11) se requieren dos bytes por línea, por 18 líneas da un total de 36 bytes por carácter.  
 Ahora, si contamos los números del 0 al 9, la letras en mayúscula y en minúscula además de unos 30 símbolos, tenemos un total de 94 caracteres que ocupan unos 3384bytes solo en fuentes.  
-**Ya se me fue casi la mitad de la memoria flash.**  Por esta razón las constante las almaceno en la memoria EEPROM
+**Ya se me fue casi la mitad de la memoria flash.**  Por esta razón las constantes las almaceno en la memoria EEPROM
 
-Al iniciar, la configuración por defecto es de 9600 baudios, con una longitud de datos de 8 bit, 1 bit de parada y sin paridad, esto lo muestra en la pantalla inicial. Inicia en modo pausa y para ponerlo en espera de datos hay que presionar el pulsador del encóder una vez.
+Al iniciar, la configuración por defecto es de 9600 baudios, con una longitud de datos de 8 bit, 1 bit de parada y sin paridad, estos parámetros los muestra en la pantalla inicial. Inicia en modo pausa y para ponerlo en espera de datos hay que presionar el pulsador del encóder una vez.
 Mientras esta en modo de espera de datos, si se presiona el pulsador entramos al menú de configuración y lo primero que veremos es "**Baudios**". Al girar el encóder veremos lo demás parámetros de configuración (_Baudios, DataBits, StopBits, Paridad y la opción Salir_) a los que se accede presionando el pulsador del encóder.  
 
-El ST7789 cuenta con la función PTLAR (_Partial Area_) que me permite hacer visible un área horizontal de la pantalla, y gracias a esto solo se ve el item seleccionado del menú.
+El ST7789 cuenta con la función PTLAR (_Partial Area_) que me permite hacer visible un área horizontal de la pantalla, y gracias a esto solo se ve el ítem seleccionado del menú. Para entrar al submenú correspondiente volvemos a presionar el pulsador del encóder.
 
+![](https://github.com/Arturrito63/ST7789-Terminal/blob/main/Doc/Primer_menu.jpg)
 
+Debido al tamaño del display y de las fuentes que uso, así como el espacio necesario entre líneas de texto, solo dispongo de 12 líneas con un ancho de 
+20 caracteres o columnas. A partir de la línea 13 se produce un scroll (_desplazamiento vertical_) donde las líneas superiores se van perdiendo dándole espacio a las nuevas líneas de texto. Cuando esto sucede, podemos girar el encóder y estaremos haciendo scroll a voluntad.
