@@ -32,3 +32,12 @@ El switch (pulsador en mi caso), y si optaron por incluir un divisor resistivo, 
 
 ![](https://github.com/Arturrito63/ST7789-Terminal/blob/main/Doc/Display.jpg)
 
+------------
+
+### Programa
+
+El MCU **STM8S103F3P6** tiene 8Kbytes de Memoria Flash (programa), 1Kbyte de memoria RAM (volatil) y 640Bytes de memoria EEPROM. Debido a estas limitaciones utilizo una única fuente de 11x18 pixeles, esto da un total de 198 pixeles por carácter que se acomodan en 18 pares de bytes. Como hay más de 8 pixeles horizontales (11) se requieren dos bytes por línea, por 18 líneas da un total de 36 bytes por carácter.  
+Ahora, si contamos los números del 0 al 9, la letras en mayúscula y en minúscula además de unos 30 símbolos, tenemos un total de 94 caracteres que ocupan unos 3384bytes solo en fuentes.  
+**Ya se me fue casi la mitad de la memoria flash.**  Por esta razón las constante las almaceno en la memoria EEPROM
+
+
