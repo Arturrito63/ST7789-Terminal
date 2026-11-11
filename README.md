@@ -58,3 +58,7 @@ El ST7789 cuenta con la función PTLAR (_Partial Area_) que me permite hacer vis
 Debido al tamaño del display y de las fuentes que uso, así como el espacio necesario entre líneas de texto, solo dispongo de 12 líneas con un ancho de 
 20 caracteres o columnas. A partir de la línea 13 se produce un scroll (_desplazamiento vertical_) donde las líneas superiores se van perdiendo dándole espacio a las nuevas líneas de texto. Cuando esto sucede, al girar el encóder se produce un scroll a voluntad (_arriba o abajo_) dependiendo del sentido del giro.  
 El **STM8S103F3P6** no tiene **DMA** por lo que el texto en pantalla no se muestra muy rápidamente, hay que tener en cuenta que es un MCU de 8Bits con un reloj de sistema a 16MHz. El SPI divide el reloj del sistema por 2 y queda funcionando a 8 MBits/Seg.
+
+------------
+
+Ya estoy trabajando en una nueva versión, esta vez con pantalla de 320x240 y posiblemente voy a utilizar un modulo con MCU CH32V003 de 32Bits que corre a 48Mhz. Este MCU tiene más memoria donde almacenar el programa, lo que me va a permitir usar mas fuentes, añadir gráficos y tener capacidad para un mayor número de líneas. Tendré que pensar que nuevas funciones agregar...
