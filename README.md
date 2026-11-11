@@ -40,4 +40,9 @@ El MCU **STM8S103F3P6** tiene 8Kbytes de Memoria Flash (programa), 1Kbyte de mem
 Ahora, si contamos los números del 0 al 9, la letras en mayúscula y en minúscula además de unos 30 símbolos, tenemos un total de 94 caracteres que ocupan unos 3384bytes solo en fuentes.  
 **Ya se me fue casi la mitad de la memoria flash.**  Por esta razón las constante las almaceno en la memoria EEPROM
 
+Al iniciar, la configuración por defecto es de 9600 baudios, con una longitud de datos de 8 bit, 1 bit de parada y sin paridad, esto lo muestra en la pantalla inicial. Inicia en modo pausa y para ponerlo en espera de datos hay que presionar el pulsador del encóder una vez.
+Mientras esta en modo de espera de datos, si se presiona el pulsador entramos al menú de configuración y lo primero que veremos es "**Baudios**". Al girar el encóder veremos lo demás parámetros de configuración (_Baudios, DataBits, StopBits, Paridad y la opción Salir_) a los que se accede presionando el pulsador del encóder.  
+
+El ST7789 cuenta con la función PTLAR (_Partial Area_) que me permite hacer visible un área horizontal de la pantalla, y gracias a esto solo se ve el item seleccionado del menú.
+
 
