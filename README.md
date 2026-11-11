@@ -47,5 +47,14 @@ El ST7789 cuenta con la función PTLAR (_Partial Area_) que me permite hacer vis
 
 ![](https://github.com/Arturrito63/ST7789-Terminal/blob/main/Doc/Primer_menu.jpg)
 
+| Baudios | DataBits | StopBits | Paridad |
+| ---| --- | ---| --- |
+| 9600 | 8 Bits | 1 Bit | Nulo |
+| 19200 | 9 Bits | 2 Bits | Par |
+| 38400 |   |   | Impar |
+| 57600 |   |   |   |
+| 115200 |   |   |   |  
+
 Debido al tamaño del display y de las fuentes que uso, así como el espacio necesario entre líneas de texto, solo dispongo de 12 líneas con un ancho de 
-20 caracteres o columnas. A partir de la línea 13 se produce un scroll (_desplazamiento vertical_) donde las líneas superiores se van perdiendo dándole espacio a las nuevas líneas de texto. Cuando esto sucede, al girar el encóder se produce un scroll a voluntad (_arriba o abajo_) dependiendo del sentido del giro.
+20 caracteres o columnas. A partir de la línea 13 se produce un scroll (_desplazamiento vertical_) donde las líneas superiores se van perdiendo dándole espacio a las nuevas líneas de texto. Cuando esto sucede, al girar el encóder se produce un scroll a voluntad (_arriba o abajo_) dependiendo del sentido del giro.  
+El **STM8S103F3P6** no tiene **DMA** por lo que el texto en pantalla no se muestra muy rápidamente, hay que tener en cuenta que es un MCU de 8Bits con un reloj de sistema a 16MHz. El SPI divide el reloj del sistema por 2 y queda funcionando a 8 MBits/Seg.
